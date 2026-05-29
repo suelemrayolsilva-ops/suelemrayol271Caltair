@@ -1,1 +1,17 @@
+import random
 
+# Lista de curiosidades (sem conteúdo protegido)
+curiosidades_bts = [
+    "O BTS foi formado em 2013 e é conhecido por misturar diversos estilos musicais.",
+    "O nome BTS significa 'Bangtan Sonyeondan', que pode ser traduzido como 'Bulletproof Boy Scouts'.",
+    "O grupo é famoso por suas coreografias elaboradas e mensagens positivas nas músicas.",
+    "Os fãs do BTS são chamados de 'ARMY', uma das maiores comunidades de fãs do mundo.",
+    "O BTS já quebrou vários recordes de visualizações no YouTube."
+]
+
+def gerar_curiosidade():
+    return random.choice(curiosidades_bts)
+
+# Execução
+print("🎤 Curiosidade sobre BTS:")
+print(gerar_curiosidade())
